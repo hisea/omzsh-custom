@@ -10,7 +10,6 @@ ZSH_THEME="hisea"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-unsetopt correct_all
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -35,6 +34,10 @@ plugins=(git cr)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+# unset autocorrect
+unsetopt correct_all
+
+
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/hai/dotfiles/scripts/:/Users/hai/bin
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
