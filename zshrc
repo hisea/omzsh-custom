@@ -37,6 +37,7 @@ source $ZSH/oh-my-zsh.sh
 # unset autocorrect
 unsetopt correct_all
 
+alias em='open -a /Applications/Emacs.app $1'
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
@@ -45,4 +46,5 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
+#export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 eval "$(rbenv init -)"
