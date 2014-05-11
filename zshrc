@@ -49,10 +49,11 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH="/usr/local/heroku/bin:$PATH"
 #export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+export RBENV_ROOT=/usr/local/var/rbenv
+# export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# export PATH="$HOME/.exenv/bin:$PATH"
-# eval "$(exenv init -)"
+export PATH="$HOME/.exenv/bin:$PATH"
+eval "$(exenv init -)"
 
 export GOPATH="$HOME/Code/Go"
