@@ -10,6 +10,7 @@ ZSH_THEME="hisea"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias bc="bundle exec"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
