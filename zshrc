@@ -10,7 +10,8 @@ ZSH_THEME="hisea"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias bc="bundle exec"
+alias be="bundle exec"
+alias em='open -a /Applications/Emacs.app $1'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -37,8 +38,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 # unset autocorrect
 unsetopt correct_all
-
-alias em='open -a /Applications/Emacs.app $1'
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
