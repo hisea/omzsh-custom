@@ -53,7 +53,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-export PATH="$HOME/.exenv/bin:$PATH"
-eval "$(exenv init -)"
+#export PATH="$HOME/.exenv/bin:$PATH"
+#eval "$(exenv init -)"
 
 export GOPATH="$HOME/Code/Go"
